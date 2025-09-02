@@ -797,7 +797,7 @@ class FileDropCLI:
 
 def main():
     """Application entry point."""
-    API_URL = "https://weathered-art-36f8.hridimay.workers.dev"
+    API_URL = "https://key.vaultx.qzz.io"
     try:
         cli = FileDropCLI(api_url=API_URL)
         cli.start()
